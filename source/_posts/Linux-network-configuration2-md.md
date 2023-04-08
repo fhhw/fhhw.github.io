@@ -137,7 +137,7 @@ update_config=1
 然后开启 wpa_supplicant：
 
 ```bash
-wpa_supplicant -B -i interface -c /etc/wpa_supplicant/wpa_supplicant.conf
+wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf
 ```
 
 然后运行 wpa_cli：

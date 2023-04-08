@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 沐川的博客
+title: 木川の小站
 subtitle: FFHWANG
 description: ''
 keywords:
-author: 沐川
+author: 苏木川
 language: zh-CN
 timezone: Asia/Shanghai
 
@@ -101,6 +101,7 @@ theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+
 deploy:
   type: git
   repo: https://github.com/fhhwang/fhhwang.github.io.git
