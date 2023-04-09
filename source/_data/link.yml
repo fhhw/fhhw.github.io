@@ -1,0 +1,10 @@
+- class_name: 友情链接
+  class_desc: 我的博客园
+  link_list:
+    - name: 苏木川
+      link: https://www.cnblogs.com/fhhw
+      avatar: /img/avatar.jpg
+      descr: 博客园
+
+
+

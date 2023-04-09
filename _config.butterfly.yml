@@ -8,16 +8,16 @@ menu:
     时间轴: /archives/ || fas fa-archive
     标签: /tags/ || fas fa-tags
     分类: /categories/ || fas fa-folder-open
+  链接: /link/ || fas fa-link
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
-  # 链接: /link/ || fas fa-link
   # 关于: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -37,7 +37,7 @@ copy:
 #   icon: link || the description
 social:
   # fab fa-github: https://github.com/fhhwang || Github
-  fa-solid fa-blog: https://blog.csdn.net/qq_44947550?type=blog || CSDN
+  fa-solid fa-blog: https://www.cnblogs.com/fhhw || cnblogs
   fa-brands fa-zhihu: https://www.zhihu.com/people/du-ruo-8-93/posts || 知乎
   fa-brands fa-qq: mailto:2263443030@qq.com || Email
 
@@ -79,7 +79,7 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.ico
+favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
@@ -93,7 +93,7 @@ disable_top_img: false
 index_img: /img/top_img.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img: /img/top_img.jpg
 
 # The banner image of archive page
 archive_img: /img/archive.jpg
@@ -135,7 +135,7 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: false
+  enable: true
   subtitle: 'Page Not Found'
   background: /img/404.jpg
 
@@ -167,7 +167,7 @@ wordcount:
 # 3: auto_excerpt (default)
 # false: do not show the article introduction
 index_post_content:
-  method: 3
+  method: 2
   length: 500 # if you set method to 2 or 3, the length need to config
 
 # anchor
@@ -206,7 +206,7 @@ reward:
 # Post edit
 # Easily browse and edit blog source code online.
 post_edit:
-  enable: false
+  enable: true
   # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
   url: https://github.com/fhhwang/fhhwang.github.io/tree/master/source/
@@ -263,7 +263,7 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
-  use:  Valine,Disqus
+  use:  Giscus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -349,9 +349,9 @@ twikoo:
 # Giscus
 # https://giscus.app/
 giscus:
-  repo:
-  repo_id:
-  category_id:
+  repo: fhhw/blog_comment
+  repo_id: R_kgDOJUNK5Q
+  category_id: DIC_kwDOJUNK5c4CVoRE
   theme:
     light: light
     dark: dark
@@ -710,7 +710,7 @@ runtimeshow:
 
 # Aside widget - Newest Comments
 newest_comments:
-  enable: false
+  enable: true
   sort_order: # Don't modify the setting unless you know how it works
   limit: 6
   storage: 10 # unit: mins, save data to localStorage
