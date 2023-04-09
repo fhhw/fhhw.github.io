@@ -3,9 +3,8 @@ title: LaTeX伪代码
 date: 2022-10-23 9:58:47
 tags: LaTeX
 categories: LaTeX
-top_img: /img/post2/top_img.JPG
-cover: /img/post2/top_img.JPG
-description: 在 LaTeX 中排版算法或者伪代码
+cover: /img/post2/top_img.png
+description: 本文介绍了在 LaTeX 中排版算法或者伪代码的几种方法。
 ---
 # LaTeX伪代码
 

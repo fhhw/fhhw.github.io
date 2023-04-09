@@ -7,6 +7,7 @@ tags:
 categories: Linux
 top_img: /img/post3/top_img.jpg
 cover: /img/post3/top_img.jpg
+description: 本文介绍Linux系统连接以太网与WIFI的不同方法。
 ---
 ## 检查网卡
 
