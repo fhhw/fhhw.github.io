@@ -351,7 +351,7 @@ twikoo:
 giscus:
   repo: fhhw/blog_comment
   repo_id: R_kgDOJUNK5Q
-  category_id: DIC_kwDOJUNK5c4CVoRE
+  category_id: DIC_kwDOJUNK5c4CVoRD
   theme:
     light: light
     dark: dark
@@ -377,7 +377,7 @@ artalk:
 
 # Chat Button [recommend]
 # It will create a button in the bottom right corner of website, and hide the origin button
-chat_btn: true
+chat_btn: false
 
 # The origin chat button is displayed when scrolling up, and the button is hidden when scrolling down
 chat_hide_show: true
