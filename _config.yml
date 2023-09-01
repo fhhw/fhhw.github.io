@@ -109,4 +109,15 @@ deploy:
   token: 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
   message: "update blog"
 
+markdown:
+ plugins:
+   - plugin:
+     name: '@neilsustc/markdown-it-katex'
+     options:
+       strict: false
 
+search:
+  path: search.xml
+  field: post
+  content: true
+  # template: ./search.xml

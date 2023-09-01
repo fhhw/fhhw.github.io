@@ -18,8 +18,10 @@ Maven是Apache基金会的开源项目，使用Java语法开发，Maven是项目
 
 （2）管理依赖
 
-          依赖：项目中需要使用的其他资源，常见的是jar；
-          备注：没有Maven时，管理jar，需要从网络中单独下载，需要选择正确版本， 手工处理jar文件之间的依赖
+依赖：项目中需要使用的其他资源，常见的是jar；
+备注：没有Maven时，管理jar，需要从网络中单独下载，需要选择正确版本， 手工处理jar文件之间的依赖
+
+
 
 ### Maven中的概念
 #### 约定的目录结构
@@ -113,8 +115,8 @@ Maven通过pom.xml文件实现项目的构建和依赖的管理。
 
 （1）坐标
 
-          坐标组成是 groupId  artifactId   version
-          z坐标的作用：确定资源，是资源的唯一标识，简称gav
+坐标组成是 groupId  artifactId   version
+坐标的作用：确定资源，是资源的唯一标识，简称gav
 
 ```xml
  <groupId>edu.stanford.cs.crypto</groupId> groupId：组织名称，组织域名倒写
@@ -122,11 +124,11 @@ Maven通过pom.xml文件实现项目的构建和依赖的管理。
  <version>1.0-SNAPSHOT</version>           version：版本，项目的版本号，使用数字，例如1.0.3
 ```
 
-          备注：版本号中带-SNAPSHOT表示快照，为不稳定版本，Release 则代表稳定的版本。
-    
-          项目中使用gav
-                  1、每个Maven项目，都需要有一个自己的gav
-                  2、管理依赖，需要使用其他jar，也需要使用gav作为标识
+> 备注：版本号中带-SNAPSHOT表示快照，为不稳定版本，Release 则代表稳定的版本。
+>
+> 项目中使用gav
+>       1、每个Maven项目，都需要有一个自己的gav
+>       2、管理依赖，需要使用其他jar，也需要使用gav作为标识
 
 （2）依赖管理
 

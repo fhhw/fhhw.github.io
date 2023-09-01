@@ -8,6 +8,8 @@ menu:
     时间轴: /archives/ || fas fa-archive
     标签: /tags/ || fas fa-tags
     分类: /categories/ || fas fa-folder-open
+  留言: /guestbook/ || fas fa-comment
+  关于: /about/ || fas fa-heart
   链接: /link/ || fas fa-link
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
@@ -35,11 +37,11 @@ copy:
 # social settings (社交圖標設置)
 # formal:
 #   icon: link || the description
-social:
+# social:
   # fab fa-github: https://github.com/fhhwang || Github
-  fa-solid fa-blog: https://www.cnblogs.com/fhhw || cnblogs
-  fa-brands fa-zhihu: https://www.zhihu.com/people/du-ruo-8-93/posts || 知乎
-  fa-brands fa-qq: mailto:2263443030@qq.com || Email
+  # fa-solid fa-blog: https://www.cnblogs.com/fhhw || cnblogs
+  # fa-brands fa-zhihu: https://www.zhihu.com/people/du-ruo-8-93/posts || 知乎
+  # fa-brands fa-qq: mailto:2263443030@qq.com || Email
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
@@ -53,7 +55,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: ture
   preload: false
   CDN:
 
@@ -71,7 +73,7 @@ mathjax:
 
 # KaTeX
 katex:
-  enable: false
+  enable: true
   per_page: false
   hide_scrollbar: true
 

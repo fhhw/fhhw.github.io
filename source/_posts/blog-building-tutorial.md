@@ -219,3 +219,72 @@ hexo d        # 配置了部署信息则运行该命令，否则手动部署
 hexo s        # 本地测试生成的网站文件
 ```
 
+## 插件
+
+### 搜索功能
+
+1. 安装依赖。
+    前往博客根目录，打开cmd命令窗口执行`npm install hexo-generator-search --save`。
+
+   ```bash
+   npm install hexo-generator-search --save
+   ```
+
+2. 注入配置。
+    修改站点配置文件`_config.yml`，添加如下代码：
+
+   ```yaml
+   search:
+     path: search.xml
+     field: post
+     content: true
+     template: ./search.xml
+   ```
+
+3. 主题中开启搜索。
+    在主题配置文件`_config.butterfly.yml`中修改以下内容：
+
+   ```yaml
+   local_search:
+     enable: true
+   ```
+
+### 使用 LaTex 公式
+
+Hexo 博客使用 LaTeX 公式有两种方法： MathJax 和 KaTeX 。其中 MathJax 功能多，但渲染时间长，且效果不如 KaTeX 。两种方法只能用一种，推荐用 KaTeX 。
+
+Butterfly 中使用 KaTeX 步骤如下：
+
+1. 更换插件
+
+   ```bash
+   npm un hexo-renderer-marked --save # 卸载 marked 插件
+   npm un hexo-renderer-kramed --save # 卸载 kramed 插件
+   npm i hexo-renderer-markdown-it --save # 安装渲染插件
+   npm install @neilsustc/markdown-it-katex --save # 安装katex插件
+   ```
+
+2. 修改主题配置文件 `_config.butterfly.yml`
+
+   ```yaml
+   # KaTeX
+   katex:
+     enable: true
+     per_page: false
+     hide_scrollbar: true
+   ```
+
+3. 在博客配置文件 `_config.yml` 中追加代码：
+
+   ```yaml
+   markdown:
+    plugins:
+      - plugin:
+        name: '@neilsustc/markdown-it-katex'
+        options:
+          strict: false
+   ```
+
+配置成功后，需要渲染的文章开头，添加参数 `katex: true` 即可。
+
+> 方法缺陷：插件 `hexo-renderer-markdown-it` 在渲染的文章，一级目录无法跳转。

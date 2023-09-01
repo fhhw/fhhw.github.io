@@ -1,9 +1,10 @@
 ---
 title: 跳表 skiplist 简介
 date: 2023-03-16 22:10:33
+katex: true
 tags: skiplist
 categories: Algorithm
-description: 跳表 (Skip List) 是由 William Pugh 在 1990 年发表的文章 Skip Lists: A Probabilistic Alternative toBalanced Trees 中描述的一种查找数据结构，支持对数据的快速查找，插入和删除。
+description: 跳表 (Skip List) 是由 William Pugh 在 1990 年发表的文章 Skip Lists A Probabilistic Alternative toBalanced Trees 中描述的一种查找数据结构，支持对数据的快速查找，插入和删除。
 ---
 
 ## 跳表 skiplist
