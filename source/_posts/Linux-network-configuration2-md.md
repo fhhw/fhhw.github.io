@@ -5,8 +5,8 @@ tags:
    - Linux
    - 网络配置
 categories: Linux
-top_img: https://cdn.jsdelivr.net/gh/fhhw/fhhw.github.io/source/img/post3/top_img.jpg
-cover: https://cdn.jsdelivr.net/gh/fhhw/fhhw.github.io/source/img/post3/top_img.jpg
+top_img: /img/post3/top_img.jpg
+cover: /img/post3/top_img.jpg
 description: 本文介绍Linux系统连接以太网与WIFI的不同方法。
 ---
 ## 检查网卡

@@ -79,11 +79,11 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://cdn.jsdelivr.net/gh/fhhw/fhhw.github.io/source/img/favicon.png
+favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://cdn.jsdelivr.net/gh/fhhw/fhhw.github.io/source/img/avatar.jpg
+  img: /img/avatar.jpg
   effect: false
 
 # Disable all banner image
@@ -91,17 +91,17 @@ disable_top_img: false
 
 # The banner image of home page
 index_img: 
-   - https://cdn.jsdelivr.net/gh/fhhw/fhhw.github.io/source/img/top_img.jpg
+   - /img/top_img.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://cdn.jsdelivr.net/gh/fhhw/fhhw.github.io/source/img/top_img.jpg
+default_top_img: /img/top_img.jpg
 
 # The banner image of archive page
-archive_img: https://cdn.jsdelivr.net/gh/fhhw/fhhw.github.io/source/img/archive.jpg
+archive_img: /img/archive.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: https://cdn.jsdelivr.net/gh/fhhw/fhhw.github.io/source/img/tags.jpg
+tag_img: /img/tags.jpg
 
 # The banner image of tag page
 # format:
@@ -110,7 +110,7 @@ tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: https://cdn.jsdelivr.net/gh/fhhw/fhhw.github.io/source/img/categories.jpg
+category_img: /img/categories.jpg
 
 # The banner image of category page
 # format:
@@ -131,14 +131,14 @@ cover:
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
-  flink: https://cdn.jsdelivr.net/gh/fhhw/fhhw.github.io/source/img/friend_404.gif
-  post_page: https://cdn.jsdelivr.net/gh/fhhw/fhhw.github.io/source/img/404.jpg
+  flink: /img/friend_404.gif
+  post_page: /img/404.jpg
 
 # A simple 404 page
 error_404:
   enable: true
   subtitle: 'Page Not Found'
-  background: https://cdn.jsdelivr.net/gh/fhhw/fhhw.github.io/source/img/404.jpg
+  background: /img/404.jpg
 
 post_meta:
   page: # Home Page
@@ -200,7 +200,7 @@ reward:
     # - img: /img/wechat.jpg
     #   link:
     #   text: 微信
-    - img: https://cdn.jsdelivr.net/gh/fhhw/fhhw.github.io/source/img/alipay.jpg
+    - img: /img/alipay.jpg
       link:
       text: 支付宝
 

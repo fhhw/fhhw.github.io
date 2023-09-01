@@ -1,9 +1,9 @@
 ---
-title: LaTeX伪代码
+title: LaTeX 伪代码
 date: 2022-10-23 9:58:47
 tags: LaTeX
 categories: LaTeX
-cover: https://cdn.jsdelivr.net/gh/fhhw/fhhw.github.io/source/img/post2/top_img.png
+cover: /img/post2/top_img.png
 description: 本文介绍了在 LaTeX 中排版算法或者伪代码的几种方法。
 ---
 # LaTeX伪代码
