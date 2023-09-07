@@ -2,6 +2,7 @@
 title: Hexo 评论系统
 date: 2023-04-09 19:35:58
 tags: 博客搭建
+cover: /img/hexo/hexo_cover.png
 description: Hexo 博客系统是静态博客，本身无法支持评论等动态的功能，但是可以通过第三方的评论系统让 Hexo 博客支持评论功能。常见的评论系统包括：Valine、Disqus、Gitment、Giscus 等，本文主要介绍 Giscus 的使用。
 ---
 

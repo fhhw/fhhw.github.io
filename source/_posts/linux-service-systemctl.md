@@ -5,6 +5,7 @@ tags:
   - Service
   - Systemctl
 categories: Linux
+cover: /img/linux/systemd-logo.gif
 description: Linux 系统服务有时也称为守护程序，是在 Linux 启动时自动加载并在 Linux 退出时自动停止的系统任务。历史版本中的 linux 对服务的操作是通过 service 来完成的。若创建用户自定义的服务，则需要较为复杂的操作。目前 linux 新的发行版已经内置了 systemctl 来操作服务。
 ---
 

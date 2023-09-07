@@ -2,7 +2,7 @@
 title: 虚拟机网络介绍
 date: 2021-12-19 17:30:17
 tags: VMWare
-cover: /img/linux/vmware_network_cover.jpg
+cover: /img/linux/VMW-86d42fcc.png
 categories: Linux
 description: Workstation Pro 中的虚拟网络连接组件包括虚拟交换机、虚拟网络适配器、虚拟 DHCP 服务器和 NAT 设备。
 ---

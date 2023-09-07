@@ -4,6 +4,7 @@ date: 2023-03-16 22:10:33
 katex: true
 tags: skiplist
 categories: Algorithm
+cover: /img/algorithm/algorithm.PNG
 description: 跳表 (Skip List) 是由 William Pugh 在 1990 年发表的文章 Skip Lists A Probabilistic Alternative toBalanced Trees 中描述的一种查找数据结构，支持对数据的快速查找，插入和删除。
 ---
 
@@ -13,7 +14,7 @@ description: 跳表 (Skip List) 是由 William Pugh 在 1990 年发表的文章 
 
 对于 AVL 树、红黑树等平衡树，在插入过程中需要做多次旋转操作，实现复杂，而跳表实现更简单、开销更低，应用广泛。
 
-![skip list](/img/skiplist/skip_list.png)
+![skip list](/img/algorithm/skip_list.png)
 
 跳表是一个包含随机算法的数据结构，跳表的查找、插入、删除的==平均时间复杂度==都是<font color="#2DC26B"> O(logn)</font>，而且可以按照范围区间查找元素，==空间复杂度==是 <font color="#00b050">O(n)</font>。
 
@@ -23,7 +24,7 @@ description: 跳表 (Skip List) 是由 William Pugh 在 1990 年发表的文章 
 
 首先，对于一个有序链表，如果我们需要查找元素，则需要从头开始遍历链表，查找时间复杂度为 O(n)。如果我们每相邻两个节点增加一个指针，让指针指向下下个节点，那么上层形成了一个减缩版的链表，当我查找元素时，先在上层链表查找，当待查元素在两个节点之间时，再回到下层链表查找，这样我们就可以跳过一些节点，提高查找速度。以此类推，我们可以在第二层链表上建立第三层链表……查找一个元素时，从最高层开始，逐层向下，直到找到为止。
 
-![linklist](/img/skiplist/linklist.png)
+![linklist](/img/algorithm/linklist.png)
 
 上述我们建立的数据结构就是一个跳表，我们可以将上层链表看作是下层链表的一个索引，每相邻两个、三个……建立一个索引，这是一种确定性策略，如果只是查找操作，这么建立跳表没有问题。但是当我们需要频繁插入和删除元素时，这种确定性策略会使维护跳表变得复杂。
 
@@ -49,7 +50,7 @@ private int randomLevel() {
 
 ### 查找元素
 
-![](/img/skiplist/skip_list_search.png)
+![](/img/algorithm/skip_list_search.png)
 
 查找元素时，从最高层索引开始查找，逐层向下，直到找到为止。根据概率可以证明查找的平均时间复杂度为 O(logn)。
 
@@ -73,7 +74,7 @@ V& find(const K& key) {
 
 ### 插入元素
 
-![](/img/skiplist/Skip_list_add_element-en.png)
+![](/img/algorithm/Skip_list_add_element-en.png)
 
 插入元素的关键是查找元素的合适插入位置，将元素插入链表中之后，运行 randomlevel 函数，确定在该元素上建立几层索引。
 
@@ -115,7 +116,7 @@ void insert(const K &key, const V &value) {
 
 ### 删除元素
 
-![](/img/skiplist/skip_list_delete.png)
+![](/img/algorithm/skip_list_delete.png)
 
 删除元素的关键同样是查找操作，先找到待删除元素的位置，然后删除对应元素及其索引，删除操作调整对应指针即可。
 

@@ -1,6 +1,7 @@
 ---
 title: PKI 简介
 date: 2023-03-16 17:32:36
+cover: /img/crypto/pki_cover.png
 tags: PKI
 categories: Cryptography
 description: PKI 全称为 Public Key Infrastructure，中文翻译为公钥基础设施，是一组由硬件、软件、参与者、管理政策与流程组成的基础架构，其目的在于创造、管理、分配、使用、存储以及撤销数字证书。

@@ -3,6 +3,7 @@ title: Java EE 简介
 date: 2023-09-01 17:04:00
 tags: Java
 categories: Java
+cover: /img/java/javaee_logo.png
 description: Java EE 的目标是用 Java 开发企业级软件。Java EE 由 SUN 牵头指定规范（标准），然后各大厂家根据规范具体实现。Oracle 公司将 Java EE 8 移交给了开源组织 Eclipse 基金会来进行管理，该平台改名为 Jakarta EE。
 ---
 

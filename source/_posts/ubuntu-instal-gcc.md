@@ -5,6 +5,7 @@ tags:
   - Ubuntu
   - GCC
 categories: Linux
+cover: /img/linux/ubuntu-painted.webp
 description: GCC 是 GUN Compiler Collection 的简称，是由 GNU 开发的编程语言编译器。本文介绍了在 Ubuntu 18 中安装 GCC 的方法。
 ---
 

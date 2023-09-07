@@ -3,6 +3,7 @@ title: Java 发展历史
 date: 2023-08-31 16:58:13
 tags: Java
 categories: Java
+cover: /img/java/java_history_cover.PNG
 description: 1996年1月23日，JDK 1.0发布，Java语言有了第一个正式版本的运行环境。JDK 1.0提供了一个纯解释执行的Java虚拟机实现（Sun Classic VM）。JDK 1.0版本的代表技术包括 Java 虚拟机、Applet、AWT等。
 ---
 

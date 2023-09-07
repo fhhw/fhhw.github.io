@@ -3,6 +3,7 @@ title: 有关 Java 对象的理解
 date: 2021-07-09 14:53:46
 tags: Java
 categories: Java
+cover: /img/java/java_logo.jpg
 description: 尽管Java是基于C++的，但相比之下，Java是一种更“纯粹”的面向对象程序设计语言。在Java中，一切都被视为对象，操纵的标识符实际上是对象的一个**引用**（reference），Java中的引用在语法上更接近C++的引用而不是指针。
 ---
 

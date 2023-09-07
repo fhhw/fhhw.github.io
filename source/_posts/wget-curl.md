@@ -3,6 +3,7 @@ title: 终端下载工具wget与curl
 date: 2021-07-20 10:45:08
 tags: Linux
 categories: Linux
+cover: /img/linux/wget_curl.PNG
 description: Wget 工具与 Curl 工具都用来与服务器之间传输数据，有时候也用来测试网络连接。通常 Wget 多用于下载文件，Curl 多用于测试网络的连通性。
 ---
 

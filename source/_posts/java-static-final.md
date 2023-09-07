@@ -3,6 +3,7 @@ title: Java 中 static 与 final 关键字
 date: 2021-07-15 17:45:12
 tags: Java
 categories: Java
+cover: /img/java/java_logo.jpg
 description: Java 中 static 关键字可以用来修饰类的成员变量和成员方法，此外，还可以编写 static 代码块来优化程序性能。在 Java 中，final 关键字可以用来修饰类、方法和变量（包括成员变量和局部变量）。
 ---
 

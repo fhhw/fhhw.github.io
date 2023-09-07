@@ -3,6 +3,7 @@ title: Maven自动化的构建工具
 date: 2022-03-20 17:16:53
 tags: Maven
 categories: Java
+cover: /img/java/maven_logo.png
 description: Maven是Apache基金会的开源项目，使用Java语法开发，Maven是项目的自动化构建工具，管理项目的依赖。类似的构建工具还有：Ant，Gradle。
 ---
 

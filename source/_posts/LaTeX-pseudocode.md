@@ -3,7 +3,7 @@ title: LaTeX 伪代码
 date: 2022-10-23 9:58:47
 tags: LaTeX
 categories: LaTeX
-cover: /img/post2/top_img.png
+cover: /img/latex/top_img.png
 description: 本文介绍了在 LaTeX 中排版算法或者伪代码的几种方法。
 ---
 # LaTeX伪代码
@@ -170,7 +170,7 @@ Comments:
 
 结果：
 
-![](/img/post2/al1.PNG)
+![](/img/latex/al1.PNG)
 
 ### algpseudocodex
 
@@ -226,7 +226,7 @@ algorithm2e 包允许大量自定义排版算法。与 algorithmic 不同，algo
 
 结果：
 
-![](/img/post2/al2.PNG)
+![](/img/latex/al2.PNG)
 
 ## 算法跨页展示
 

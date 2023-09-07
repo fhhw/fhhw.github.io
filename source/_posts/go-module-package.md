@@ -3,6 +3,7 @@ title: go module 与 package
 date: 2023-03-24 15:23:51
 tags: Golang
 categories: Golang
+cover: /img/golang/golang_cover.png
 description: 笔者在学习 golang 语言的时候，对其版本管理产生了诸多困惑，于是花费了几天时间搜集了很多资料，试图理解其背后的原理，现将搜集的资料整理成下文。
 ---
 

@@ -2,8 +2,7 @@
 title: 博客搭建教程
 date: 2022-10-22 14:08:15
 tags: 博客搭建
-top_img: /img/post1/top_img.jpg
-cover: /img/post1/top_img.jpg
+cover: /img/hexo/hexo_cover.png
 description: 本教程基于 Hexo 框架 + Butterfly 主题 + GitHub Pages 搭建博客。
 ---
 # 博客搭建教程 
