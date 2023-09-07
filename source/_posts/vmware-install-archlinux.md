@@ -3,6 +3,7 @@ title: 虚拟机安装 Arch Linux
 date: 2022-11-24 15:51:59
 tags: Linux
 categories: Linux
+cover: /img/linux/vmware_arch_cover.jpg
 description: 本文介绍如何在虚拟机中安装 Arch Linux。
 ---
 

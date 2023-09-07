@@ -5,7 +5,7 @@ tags:
    - Linux
    - 网络配置
 categories: Linux
-cover: /img/linux/linux_cover.PNG
+cover: /img/linux/linux_cover.png
 description: 本文介绍Linux系统中常用的网络配置工具。
 ---
 ## 网络配置

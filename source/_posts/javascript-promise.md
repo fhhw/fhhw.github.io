@@ -3,7 +3,7 @@ title: JavaScript 异步编程 Promise
 date: 2021-07-22 10:51:15
 tags: JavaScript
 categories: JavaScript
-cover: /img/js/js_logo.webp
+cover: /img/js/js_logo.png
 description: 通常来说，程序都是顺序执行的，同一时刻只会发生一件事。如果一个函数依赖于另一个函数的结果，它只能等待那个函数结束才能继续执行，从用户的角度来说，整个程序才算运行完毕。 
 ---
 
